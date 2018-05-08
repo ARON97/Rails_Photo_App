@@ -82,7 +82,15 @@ config.action_mailer.default_url_options = { :host => '(link to current producti
 
 Email confirmation link: http://https/users/confirmation?confirmation_token=gYcTabQeCMupjH5K-qNs&amp;locale=en">Confirm my account
 First email tried was: Joe@example.com
+In production run heroku logs and look for the confirmation link
 
 UPDATE NAVIGATION
 In views/layouts/application.html.erb
 Create app/assets/stylesheets/custom.css.scss
+
+CHANGING: please-change-me-at-config-initializers-devise@example.com
+Go to config/initializers/devise.rb on line 21
+
+BUILDING HOMEPAGE
+In views/welcome/index.html.erb
+Change the column to 12 so that the Jumbotron is aligned in views/layouts/application.html.erb on line 67
