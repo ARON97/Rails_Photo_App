@@ -12,7 +12,7 @@ Rails.application.configure do
   # Email confirmation link in development
   config.action_mailer.delivery_method = :test
   config.action_mailer.default_url_options = {
-                                                :host => 'locolhost',
+                                                :host => 'localhost',
                                                 :port => 3000
                                               }
 
